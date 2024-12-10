@@ -1,4 +1,0 @@
-AuthName "Accès protégé"
-AuthType Basic
-AuthUserFile /home/boris003/www/.htpasswd
-Require valid-user
