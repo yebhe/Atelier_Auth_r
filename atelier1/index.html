@@ -8,19 +8,19 @@
 <body>
 <h1>Bienvenue dans votre atelier 1</h1>
 <h2>Votre objectif est de sécuriser l'accès à cette page via une solution d'authentification basique (Basic Auth)</h2>
-<p>Pour sécuriser une page web avec une authentification basique, vous devez configurer votre serveur web pour exiger un nom d'utilisateur et un mot de passe</p>
-<p>Tout ce que vous avez besion de savoir est ici : <a href="https://help.alwaysdata.com/fr/sites/fichier-htaccess/#protéger-un-répertoire-par-un-mot-de-passe">Lien d'aide</a></a></p></p>
+<p>Pour sécuriser une page web avec un système d'authentification basique, vous devez configurer votre serveur web pour exiger la saisie d'un nom d'utilisateur et d'un mot de passe</p>
+<p>Tout ce dont vous avez besion de savoir se trouve ici : <a href="https://help.alwaysdata.com/fr/sites/fichier-htaccess/#protéger-un-répertoire-par-un-mot-de-passe">Lien d'aide</a></a></p></p>
 <p>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
 <h3>Ce que nous dit l'aide en ligne d'Alwaysdata :</h3>
-<p>Etape 1 : Il faut créer dans le répertoire à protéger un fichier <pre><code><xmp>.htaccess</xmp></code></pre> contenant le code suivant</p>
+<p>Etape 1 : Il faut créer dans le répertoire à protéger un fichier <b>.htaccess</b> contenant le code suivant</p>
 <pre><code><xmp>
 AuthName "Accès protégé"
 AuthType Basic
 AuthUserFile /home/{votre_compte_Alwaysdata}/www/.htpasswd
 Require valid-user
 </xmp></code></pre>
-<p>Etape 2 : Créer le fichier <pre><code><xmp>.htpasswd</xmp></code></pre> à la racine de notre serveur, dans notre cas, contenant les identifiants et mots de passes autorisés à ce connecter</p>
-
+<p>Etape 2 : Créer le fichier <b>.htpasswd</b> à la racine de notre serveur (c'est à dire dans le répertoire www), dans notre cas, contenant les identifiants et mots de passes autorisés à ce connecter</p>
+<p>Pour générer le couple login/password contenu du fichier .htpasswd vous pouvez utiliser la solution en ligne suivante : <a href="https://hellotools.org/fr/generer-crypter-mot-de-passe-pour-fichier-htpasswd">Générateur de fichier .htpasswd</a></p>
 
 
 <p>Modifier le fichier hello.html de votre projet GitHUB afin de préciser votre Prénom et Nom sur la page d'accueil de votre site (Modification de la ligne 4 du fichier hello.html)</p>
