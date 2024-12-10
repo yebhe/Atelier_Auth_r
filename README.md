@@ -1,8 +1,8 @@
 ------------------------------------------------------------------------------------------------------
-INSTALLATION DE VOTRE ENVIRONNEMENT DE TRAVAIL NFA040
+INSTALLATION DE VOTRE ENVIRONNEMENT DE TRAVAIL WEB
 ------------------------------------------------------------------------------------------------------
 Quelles sont les notions qui vont être abordées au cours de cet atelier ?
-Cet atelier a pour objectif de vous apprendre à mettre en place place votre environnement de travail dans le cadre de module NFA040. 
+Cet atelier a pour objectif de vous apprendre à mettre en place place votre environnement de travail dans le cadre de module de votre module d'apprentissage sur l'authentification. 
 Vous allez créer votre hébergement de site, découvrir les Actions et les Secrets GitHUB pour au final mettre en service et exploiter un site Internet.
 Large programme mais tout à fait accessible et ne nécessitant pas de base technique particulière. Juste de l'observation et de la rigueur dans votre travail.
 
@@ -84,7 +84,7 @@ Votre solution est à présent opérationnelle.
 Vous allez à présent modifier votre fichier index.html dans votre Repository afin de customiser votre page d'accueil.
 
 **Travail demandé :** Depuis GitHUB, modifiez votre fichier index.html et remplacer le code de la ligne 8 par celui-ci :  
-```<h1>Ceci est mon Site Internet NFA040 </h1>```  
+```<h1>Ceci est mon Site Internet </h1>```  
 Enregistrez vos modifications via un "Commit" (le gros boutton vert) et observez le résultat en ligne.  
 
 Notions acquises de cette séquence :  
