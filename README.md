@@ -89,3 +89,13 @@ Enregistrez vos modifications via un "Commit" (le gros boutton vert) et observez
 
 Notions acquises de cette séquence :  
 Vous avez apris à modifier votre code depuis GitHUB et mis en ligne votre travail automatiquement.  
+  
+--------------------------------------------------------------------
+Troubleshooting :
+---------------------------------------------------
+Objectif : Visualiser ses logs et découvrir ses erreurs
+---------------------------------------------------
+Lors de vos développements, vous serez peut-être confronté à des erreurs systèmes car vous avez faits des erreurs de syntaxes dans votre code, faits de mauvaises déclarations de fonctions, appelez des modules inexistants, mal renseigner vos secrets, etc…  
+Les causes d'erreurs sont quasi illimitées. **Vous devez donc vous tourner vers les logs de votre système pour comprendre d'où vient le problème** :  
+Voici une vidéo pour accéder aux logs de vos Actions GitHUB : [Vidéo Log GitHUB](https://youtu.be/rhGrDLSFH7Y)  
+Voici une vidéo pour vous expliquer comment accéder au logs de votre serveur Alwaysdata : [Vidéo Log Alwaysdata](https://youtu.be/URWMWqVMS2U)  
