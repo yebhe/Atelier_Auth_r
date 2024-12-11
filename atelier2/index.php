@@ -36,13 +36,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <h1>Connexion</h1>
+    <h2>La page home.php est inaccéssible tant que vous ne vous serez pas connecté avec le login 'admin' et mot de passe 'secret'</h2>
     <form method="POST" action="">
         <label for="username">Nom d'utilisateur :</label>
         <input type="text" id="username" name="username" required>
-        <br>
+        <br><br>
         <label for="password">Mot de passe :</label>
         <input type="password" id="password" name="password" required>
-        <br>
+        <br><br>
         <button type="submit">Se connecter</button>
     </form>
 </body>
