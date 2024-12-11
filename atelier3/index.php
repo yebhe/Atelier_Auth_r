@@ -40,10 +40,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <form method="POST" action="">
         <label for="username">Nom d'utilisateur :</label>
         <input type="text" id="username" name="username" required>
-        <br>
+        <br><br>
         <label for="password">Mot de passe :</label>
         <input type="password" id="password" name="password" required>
-        <br>
+        <br><br>
         <button type="submit">Se connecter</button>
     </form>
 </body>
