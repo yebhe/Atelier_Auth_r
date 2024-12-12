@@ -11,7 +11,7 @@ Large programme avec 4 ateliers à réaliser mais tout à fait accessible et ne 
 Séquence 1 : GitHUB
 -------------------------------------------------------------------------------------------------------
 Objectif : Création d'un Repository GitHUB pour travailler avec son projet  
-Difficulté : Très facile (~10 minutes)
+Difficulté : Très facile (~15 minutes)
 -------------------------------------------------------------------------------------------------------
 GitHUB est une plateforme en ligne utilisée pour stocker le code de son programme.
 GitHUB est organisé en "Repository", c'est à dire en répertoire (contenant lui même des sous répertoires et des fichiers). Chaque Repository sera indépendant les un des autres. Un Repository doit être vu comme un projet unique (1 Repository = 1 Projet). GitHUB est une plateforme très utilisée par les informaticiens.
@@ -34,7 +34,7 @@ Vous avez appris lors de cette séquence à créer des Repository pour stocker e
 Séquence 2 : Création d'un hébergement en ligne
 ---------------------------------------------------
 Objectif : Créer un hébergement sur Alawaysdata  
-Difficulté : Faible (~10 minutes)
+Difficulté : Faible (~20 minutes)
 ---------------------------------------------------
 
 Rendez-vous sur **https://www.alwaysdata.com/fr/**  
@@ -52,14 +52,14 @@ Voici une vidéo d'accompagnement pour vous aider dans cette séquence de créat
   
 **Travail demandé :** Mettre en ligne votre site Internet et **copier l'URL de votre site dans la discussion public**.  
   
-Notions acquises lors de cette séquence :  
+**Notions acquises lors de cette séquence :**  
 Vous avez créer un hébergement (gratuit) et découvert également un environnement où pourriez installer bien d'autres applications (Django, Drupal, Jenkins, Magento, Symphony, etc...). Les perspectives sont nombreuses.
 
 ---------------------------------------------------------------------------------------------
 Séquence 3 : Les Actions GitHUB (Industrialisation Continue)
 ---------------------------------------------------------------------------------------------
 Objectif : Automatiser la mise à jour de votre hébergement Alwaysdata  
-Difficulté : Moyenne (~15 minutes)
+Difficulté : Moyenne (~20 minutes)
 ---------------------------------------------------------------------------------------------
 Dans le Repository GitHUB que vous venez de créer précédemment lors de la séquence 1, vous avez un fichier intitulé CICD.yml et qui est déposé dans le répertoire .github/workflows. Ce fichier a pour objectif d'automatiser le déploiement de votre code sur votre site Alwaysdata. Pour information, c'est ce que l'on appel des Actions GitHUB. Ce sont des scripts qui s'exécutent automatiquement lors de chaque Commit dans votre projet (C'est à dire à chaque modification de votre code). Ces scripts (appelés actions) sont au format yml qui est un format structuré proche de celui d'XML.  
 
@@ -75,7 +75,8 @@ Voici une vidéo pour vous expliquer le processus de création de vos secrets da
   
 ![Screenshot Actions](Actions_Button.jpg)   
   
-Notions acquises de cette séquence :  
+  
+**Notions acquises de cette séquence :**  
 Vous avez vu dans cette séquence comment créer des secrets GiHUB afin de mettre en place de l'industrialisation continue.  
 L'utilité des scripts d'actions (C'est à dire des scripts exécutés lors des Commits) est très importante mais sortes malheureusement du cadre de cet atelier faute de temps. Toutefois, je vous invites à découvrir cet outil via les différentes sources du Web (Google, ChatGPT, etc..).  
 
@@ -83,20 +84,26 @@ L'utilité des scripts d'actions (C'est à dire des scripts exécutés lors des 
 Séquence 4 : Customisez votre page d'accueil
 ---------------------------------------------------
 Objectif : Créer sa propre page HTML et la mettre en ligne  
-Difficulté : Faible (~10 minutes)
+Difficulté : Faible (~15 minutes)
 ---------------------------------------------------
 Votre solution est à présent opérationnelle et en ligne sur Internet via l'adresse suivante : https://{votre_compte}.alwaysdata.net/ 
 Vous allez à présent modifier votre fichier index.html à la racine de votre Repository GitHub afin de customiser votre page d'accueil.
 
 **Travail demandé :** Depuis GitHUB, modifiez votre fichier index.html à la racine de votre Repository et remplacer le code de la ligne 8 par celui-ci :  
 ```<h1>Ceci est mon Site Internet Nom Prénom</h1>```  
-Enregistrez vos modifications via un "Commit" (le boutton vert) et observez le résultat en ligne.  
-
-
   
-
-Notions acquises de cette séquence :  
+**Notions acquises de cette séquence :**  
 Vous avez apris à modifier votre code depuis GitHUB et mis en ligne votre travail automatiquement.  
+
+---------------------------------------------------
+Séquence 5 : Réalisez vos ateliers
+---------------------------------------------------
+Objectif : Réalisez les 4 ateliers en ligne  
+Difficulté : De facile à difficile (~5 heures)
+---------------------------------------------------
+Votre solution est à présent opérationnelle et en ligne sur Internet via l'adresse suivante : https://{votre_compte}.alwaysdata.net/ 
+  
+**Travail demandé :** Rendez-vous sur votre site et attendez les instructions de votre enseignant qui vous donnera les exercices à réaliser.  
   
 --------------------------------------------------------------------
 Troubleshooting :
