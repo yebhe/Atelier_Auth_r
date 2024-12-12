@@ -73,7 +73,7 @@ Voici une vidéo pour vous expliquer le processus de création de vos secrets da
 
 **Dernière étape :** Pour engager l'automatisation de votre première Action vous devez cliquer sur le gros boutton vert dans l'onglet supérieur Actions. Le boutton s'intitule "I understand my workflows, go ahead and enable them"  
   
-![Screenshot Actions](Actions_Button.jpg | width=100)   
+![Screenshot Actions](Actions_Button.jpg {width=100px})   
   
   
 **Notions acquises de cette séquence :**  
