@@ -1,10 +1,11 @@
 ------------------------------------------------------------------------------------------------------
-INSTALLATION DE VOTRE ENVIRONNEMENT DE TRAVAIL WEB
+INSTALLATION DE VOTRE ENVIRONNEMENT DE TRAVAIL
 ------------------------------------------------------------------------------------------------------
 Quelles sont les notions qui vont être abordées au cours de cet atelier ?
-Cet atelier a pour objectif de vous apprendre à mettre en place place votre environnement de travail dans le cadre de module de votre module d'apprentissage sur l'authentification. 
-Vous allez créer votre hébergement de site, découvrir les Actions et les Secrets GitHUB pour au final mettre en service et exploiter un site Internet.
-Large programme mais tout à fait accessible et ne nécessitant pas de base technique particulière. Juste de l'observation et de la rigueur dans votre travail.
+Cet atelier a pour objectif de vous apprendre à mettre en place place votre environnement de travail dans le cadre de votre module d'apprentissage sur les systèmes d'authentification. 
+Vous allez créer votre hébergement de site, découvrir les Actions et les Secrets GitHUB pour au final mettre en service et exploiter des solutions d'authentifications.  
+Dans cet atelier sont concerné les systèmes d'authentification de base, l'authentifcation via l'utilisation de Cookies, via l'utilisation de mecanismes de Session et via les requêtes HTTP.  
+Large programme avec 4 ateliers à réaliser mais tout à fait accessible et ne nécessitant pas de base technique particulière. Juste de l'observation et de la rigueur dans votre travail.
 
 -------------------------------------------------------------------------------------------------------
 Séquence 1 : GitHUB
@@ -70,6 +71,11 @@ Pour ce projet Métriques, **vous avez 2 secrets à créer** dans votre Reposito
   
 Voici une vidéo pour vous expliquer le processus de création de vos secrets dans GitHUB : [Création des secrets](https://youtu.be/Rv5X5-qbvqA) 
 
+**Dernière étape :** Pour engager l'automatisation de votre première Action vous devez cliquer sur le gros boutton vert dans l'onglet supérieur Actions.  
+Le boutton s'intitule "I understand my workflows, go ahead and enable them"  
+
+![Screenshot Actions](Actions_buton.jpg)   
+
 Notions acquises de cette séquence :  
 Vous avez vu dans cette séquence comment créer des secrets GiHUB afin de mettre en place de l'industrialisation continue.  
 L'utilité des scripts d'actions (C'est à dire des scripts exécutés lors des Commits) est très importante mais sortes malheureusement du cadre de cet atelier faute de temps. Toutefois, je vous invites à découvrir cet outil via les différentes sources du Web (Google, ChatGPT, etc..).  
@@ -80,12 +86,15 @@ Séquence 4 : Customisez votre page d'accueil
 Objectif : Créer sa propre page HTML et la mettre en ligne  
 Difficulté : Faible (~10 minutes)
 ---------------------------------------------------
-Votre solution est à présent opérationnelle. 
-Vous allez à présent modifier votre fichier index.html dans votre Repository afin de customiser votre page d'accueil.
+Votre solution est à présent opérationnelle et en ligne sur Internet via l'adresse suivante : https://{votre_compte}.alwaysdata.net/ 
+Vous allez à présent modifier votre fichier index.html à la racine de votre Repository GitHub afin de customiser votre page d'accueil.
 
-**Travail demandé :** Depuis GitHUB, modifiez votre fichier index.html et remplacer le code de la ligne 8 par celui-ci :  
-```<h1>Ceci est mon Site Internet </h1>```  
-Enregistrez vos modifications via un "Commit" (le gros boutton vert) et observez le résultat en ligne.  
+**Travail demandé :** Depuis GitHUB, modifiez votre fichier index.html à la racine de votre Repository et remplacer le code de la ligne 8 par celui-ci :  
+```<h1>Ceci est mon Site Internet Nom Prénom</h1>```  
+Enregistrez vos modifications via un "Commit" (le boutton vert) et observez le résultat en ligne.  
+
+
+  
 
 Notions acquises de cette séquence :  
 Vous avez apris à modifier votre code depuis GitHUB et mis en ligne votre travail automatiquement.  
