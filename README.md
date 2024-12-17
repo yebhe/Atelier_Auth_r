@@ -90,7 +90,7 @@ Votre solution est à présent opérationnelle et en ligne sur Internet via l'ad
 Vous devez à présent modifier votre fichier index.html à la racine de votre Repository GitHub afin de customiser votre page d'accueil.
 
 **Travail demandé :** Depuis GitHUB, modifiez votre fichier index.html à la racine de votre Repository et modifier le code de la ligne 9 afin de préciser votre Prénom Nom. Exemple :  
-```<h1>Ceci est le travai réalisé par : Boris STOCKER</h1>```  
+```<h1>Ceci est le travail de : Boris STOCKER</h1>```  
   
 **Notions acquises de cette séquence :**  
 Vous avez apris à modifier votre code depuis GitHUB et mettre votre travail automatiquement en ligne sur Internet. C'est ce que l'on appel du DevOps.  
