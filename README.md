@@ -71,14 +71,14 @@ Pour ce projet Métriques, **vous avez 2 secrets à créer** dans votre Reposito
   
 Voici une vidéo pour vous expliquer le processus de création de vos secrets dans GitHUB : [Création des secrets](https://youtu.be/Rv5X5-qbvqA) 
 
-**Dernière étape :** Pour engager l'automatisation de votre première Action vous devez cliquer sur le gros boutton vert dans l'onglet supérieur Actions. Le boutton s'intitule "I understand my workflows, go ahead and enable them"  
+**Dernière étape :** Pour engager l'automatisation de votre première Action, vous devez cliquer sur le gros boutton vert dans l'onglet supérieur Actions. Le boutton s'intitule "I understand my workflows, go ahead and enable them"  
   
 ![Screenshot Actions](Actions_Button.jpg)   
   
   
 **Notions acquises de cette séquence :**  
 Vous avez vu dans cette séquence comment créer des secrets GiHUB afin de mettre en place de l'industrialisation continue.  
-L'utilité des scripts d'actions (C'est à dire des scripts exécutés lors des Commits) est très importante mais sortes malheureusement du cadre de cet atelier faute de temps. Toutefois, je vous invites à découvrir cet outil via les différentes sources du Web (Google, ChatGPT, etc..).  
+L'utilité des scripts d'actions (C'est à dire des scripts exécutés lors des Commits) est très importante mais sortes malheureusement du cadre de cet atelier faute de temps. Toutefois, je vous invites à découvrir cet outil que sont les actions via les différentes sources du Web (Google, ChatGPT, etc..).  
 
 ---------------------------------------------------
 Séquence 4 : Customisez votre page d'accueil
@@ -87,13 +87,13 @@ Objectif : Créer sa propre page HTML et la mettre en ligne
 Difficulté : Faible (~15 minutes)
 ---------------------------------------------------
 Votre solution est à présent opérationnelle et en ligne sur Internet via l'adresse suivante : https://{votre_compte}.alwaysdata.net/ 
-Vous allez à présent modifier votre fichier index.html à la racine de votre Repository GitHub afin de customiser votre page d'accueil.
+Vous devez à présent modifier votre fichier index.html à la racine de votre Repository GitHub afin de customiser votre page d'accueil.
 
-**Travail demandé :** Depuis GitHUB, modifiez votre fichier index.html à la racine de votre Repository et remplacer le code de la ligne 8 par celui-ci :  
-```<h1>Ceci est mon Site Internet Nom Prénom</h1>```  
+**Travail demandé :** Depuis GitHUB, modifiez votre fichier index.html à la racine de votre Repository et modifier le code de la ligne 9 afin de préciser votre Prénom Nom. Exemple :  
+```<h1>Ceci est le travai réalisé par : Boris STOCKER</h1>```  
   
 **Notions acquises de cette séquence :**  
-Vous avez apris à modifier votre code depuis GitHUB et mis en ligne votre travail automatiquement.  
+Vous avez apris à modifier votre code depuis GitHUB et mettre votre travail automatiquement en ligne sur Internet. C'est ce que l'on appel du DevOps.  
 
 ---------------------------------------------------
 Séquence 5 : Réalisez vos ateliers
