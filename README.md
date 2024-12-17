@@ -27,7 +27,7 @@ Voici une vidéo d'accompagnement pour vous aider dans les "Forks" : [Forker ce 
   
 **Travail demandé :** Créé votre compte GitHUB, faites le fork de ce projet et **copier l'URL de votre Repository GitHUB dans la discussion public**.
 
-Notion acquise lors de cette séquence :  
+**Notion acquise lors de cette séquence :**  
 Vous avez appris lors de cette séquence à créer des Repository pour stocker et travailler avec votre code informatique. Vous pourez par la suite travailler en groupe sur un projet. Vous avez également appris à faire des Forks. C'est à dire, faire des copies de projets déjà existant dans GitHUB que vous pourrez ensuite adapter à vos besoins.
   
 ---------------------------------------------------
