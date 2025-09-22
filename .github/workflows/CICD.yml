@@ -34,5 +34,3 @@ jobs:
               echo "Le répertoire flask de destination sur votre serveur n'existe pas"
               exit 1
             fi
-
-            //
