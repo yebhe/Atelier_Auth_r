@@ -1,1 +1,4 @@
-
+AuthName "Accès protégé"
+AuthType Basic
+AuthUserFile /home/{yebhe}/www/.htpasswd
+Require valid-user
