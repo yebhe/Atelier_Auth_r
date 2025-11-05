@@ -3,7 +3,7 @@
 session_start();
 
 if (!$_SESSION['count']){
-    $_SESSION['count'] = 1;
+    $_SESSION['count'] = 0;
 }else{
    $_SESSION['count'] +=1; 
 }
