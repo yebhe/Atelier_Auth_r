@@ -20,7 +20,7 @@ $password = $_SERVER['PHP_AUTH_PW'];
 $auth = false;
 
 foreach($users as $user){
-    if($username = $user['userType'] && $password = $user['password']){
+    if($username === $user['userType'] && $password === $user['password']){
         $auth = true;
         break;
     }
