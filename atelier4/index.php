@@ -15,7 +15,7 @@ if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW'])) {
     exit;
 }
 
-$username = $_SERVER['PHP_AUTH_USER';
+$username = $_SERVER['PHP_AUTH_USER'];
 $password = $_SERVER['PHP_AUTH_PW'];
 $auth = false;
 
