@@ -5,14 +5,15 @@ session_start();
 // Vérifier si l'utilisateur est déjà en possession d'un cookie valide (cookie authToken ayant le contenu 12345)
 // Si l'utilisateur possède déjà ce cookie, il sera redirigé automatiquement vers la page home.php
 // Dans le cas contraire il devra s'identifier.
-$id = bin2hex(random_bytes(16))
-if (isset($_COOKIE['authToken']) && $_COOKIE['authToken'] === $id) {
+
+if (isset($_COOKIE['authToken']) && $_COOKIE['authToken'] === $_SESSION['token'] ) {
     header('Location: page_admin.php');
     exit();
 }
 
 // Gérer la soumission du formulaire
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $_SESSION['token'] = bin2hex(random_bytes(16));
     $username = $_POST['username'];
     $password = $_POST['password'];
 
@@ -36,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Connexion</title>
 </head>
 <body>
-    <h1>Atelier authentification par Cookie mon id <?=$id?></h1>
+    <h1>Atelier authentification par Cookie mon id <?=$_SESSION['token'];?></h1>
     <h3>La page <a href="page_admin.php">page_admin.php</a> est inaccéssible tant que vous ne vous serez pas connecté avec le login 'admin' et mot de passe 'secret'</h3>
     <form method="POST" action="">
         <label for="username">Nom d'utilisateur :</label>
