@@ -51,7 +51,7 @@ if (!$auth){
     <p>Aucun système de session ou cookie n'est utilisé pour cet atelier</p>
     <p>Vous êtes connecté en tant que : <?php echo htmlspecialchars($_SERVER['PHP_AUTH_USER']); ?></p>
     <?php if ($user['userType'] === 'admin'){
-        echo <p>s'affice uniqment en mode admin</p>
+        echo 's\'affice uniqment en mode admin';
     }?>
     <a href="../index.html">Retour à l'accueil</a>  
 </body>
