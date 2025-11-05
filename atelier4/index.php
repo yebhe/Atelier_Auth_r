@@ -2,8 +2,8 @@
 // Nom d'utilisateur et mot de passe corrects 
 
 $users = [
-    'admin'=>'secret',
-    'user'=> 'utilisateur'
+    ['userType'=> 'admin', 'password'=>'secret'],
+    ['userType'=> 'user', 'password'=>'utilisateur']
 ]
 
 // Vérifier si l'utilisateur a envoyé des identifiants
@@ -16,7 +16,7 @@ if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW'])) {
 }
 
 // Vérifier les identifiants envoyés
-if ($_SERVER['PHP_AUTH_USER'] !== $users || $_SERVER['PHP_AUTH_PW'] !== $users) {
+if ($_SERVER['PHP_AUTH_USER'] !== $users['userType'] || $_SERVER['PHP_AUTH_PW'] !== $users['password']) {
 // Si les identifiants sont incorrects
 header('WWW-Authenticate: Basic realm="Zone Protégée"');
 header('HTTP/1.0 401 Unauthorized');
